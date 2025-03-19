@@ -8,3 +8,5 @@ Manage Books Home Page:-
 
 ![image](https://github.com/AbhayMParmar/Book-Shop-Management-System/blob/master/Home%20Page%20of%20Books.png?raw=true)
 
+Manage Author Page:-
+![image](https://github.com/AbhayMParmar/Book-Shop-Management-System/blob/master/Author%20Page.png?raw=true)
