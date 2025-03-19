@@ -10,3 +10,6 @@ Manage Books Home Page:-
 
 Manage Author Page:-
 ![image](https://github.com/AbhayMParmar/Book-Shop-Management-System/blob/master/Author%20Page.png?raw=true)
+
+Manage Seller Page:-
+![image](https://github.com/AbhayMParmar/Book-Shop-Management-System/blob/master/SellerPage.png?raw=true)
