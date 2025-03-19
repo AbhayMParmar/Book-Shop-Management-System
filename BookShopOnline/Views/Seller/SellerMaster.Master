@@ -1,0 +1,69 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SellerMaster.master.cs" Inherits="BookShopOnline.Views.Seller.SellerMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+       <title></title>
+     <style>
+     *{
+         font-family:Poppins;
+     }
+     #left{
+         color:white;
+         height:633px;
+         background-color:teal;
+     }
+     label{
+         color:white
+     }
+    
+    </style>
+     <link rel="stylesheet"  href="../../Assets1/lib/css/bootstrap.min.css"/>
+</head>
+<body>
+    <div class="container-fluid">
+      <div class="row">
+         <div class="col-2" id="left">
+            <div style="height:58px; width: 54px;">
+                <img src="../../Assets1/Img/icons8-shopping-cart-64.png" id="Logo" />
+            </div>
+            <div class="p-2">
+              <div class="mb-3">
+                 <img  src="../../Assets1/Img/icons8-billing-machine-100.png" style="height: 55px; width: 55px" />
+                 <a href="#"><label>Billing</label></a>
+              </div>
+              <div class="mb-3">
+                 <img  src="../../Assets1/Img/icons8-user-typing-using-typewriter-64.png" style="height: 58px; width: 54px" />
+                 <a href="../Admin/Authors.aspx"><label>Authors</label></a>
+              </div>
+              <div class="mb-3">
+                 <img  src="../../Assets1/Img/icons8-administrator-male-52.png"" style="height: 58px; width: 54px"/>
+                 <a href="../Admin/Seller.aspx"><label>Sellers</label></a>
+              </div>
+              <div class="mb-3">
+                 <img  src="../../Assets1/Img/icons8-categorize-60.png" style="height: 54px; width: 58px"/>
+                 <a href="../Admin/Categories.aspx"><label>Categories</label></a> 
+              </div>
+                <div style="height:159px; width: 164px; margin-top: 0px;">
+
+                </div>
+              <div class="mb-3">
+                 <img  src="../../Assets1/Img/icons8-home-52.png" style="height: 58px; width: 54px" />
+                 <a href="../Login.aspx"><label>Logout</label></a>
+              </div>
+            </div>
+         </div>
+         <div class="col-10">
+            <form id="form1" runat="server">
+              <div>
+                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                 </asp:ContentPlaceHolder>
+              </div>
+            </form>
+         </div>   
+     </div>
+</div>
+</body>
+</html>
+

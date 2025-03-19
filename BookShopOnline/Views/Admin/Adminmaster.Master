@@ -1,0 +1,67 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Adminmaster.master.cs" Inherits="BookShopOnline.Views.Admin.Adminmaster" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title></title>
+     <style>
+     *{
+         font-family:Poppins;
+     }
+     #left{
+         color:white;
+         height:633px;
+         background-color:teal;
+     }
+     label{
+         color:white
+     }
+    
+    </style>
+     <link rel="stylesheet"  href="../../Assets1/lib/css/bootstrap.min.css"/>
+</head>
+<body>
+    <div class="container-fluid">
+      <div class="row">
+         <div class="col-2" id="left">
+            <div style="height:74px; width: 165px;">
+
+            </div>
+            <div class="p-2">
+              <div class="mb-3">
+                 <img  src="../../Assets1/Img/icons8-book-100.png" />
+                 <a href="Books.aspx"><label>Books</label></a>
+              </div>
+              <div class="mb-3">
+                 <img  src="../../Assets1/Img/icons8-user-typing-using-typewriter-64.png" />
+                 <a href="Authors.aspx"><label>Authors</label></a>
+              </div>
+              <div class="mb-3">
+                 <img  src="../../Assets1/Img/icons8-administrator-male-52.png""/>
+                 <a href="Seller.aspx"><label>Sellers</label></a>
+              </div>
+              <div class="mb-3">
+                 <img  src="../../Assets1/Img/icons8-categorize-60.png"/>
+                 <a href="Categories.aspx"><label>Categories</label></a> 
+              </div>
+                <div style="height:142px; width: 162px;">
+
+                </div>
+              <div class="mb-3">
+                 <img  src="../../Assets1/Img/icons8-home-52.png" />
+                 <a href="../Login.aspx"><label>Logout</label></a>
+              </div>
+            </div>
+         </div>
+         <div class="col-10">
+            <form id="form1" runat="server">
+              <div>
+                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                 </asp:ContentPlaceHolder>
+              </div>
+            </form>
+         </div>   
+     </div>
+</div>
+</body>
+</html>
