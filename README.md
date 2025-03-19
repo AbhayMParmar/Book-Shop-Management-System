@@ -13,3 +13,6 @@ Manage Author Page:-
 
 Manage Seller Page:-
 ![image](https://github.com/AbhayMParmar/Book-Shop-Management-System/blob/master/SellerPage.png?raw=true)
+
+Manage Categories Page:-
+![image](https://github.com/AbhayMParmar/Book-Shop-Management-System/blob/master/Categories%20page.png?raw=true)
